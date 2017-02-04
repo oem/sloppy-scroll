@@ -4,32 +4,50 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>sloppy-scroll example</title>
     <script src="../dist/sloppy-scroll.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <style>
+      .first-section, .second-section, .intro {
+        margin: 0 0 40em 0;
+      }
     </style>
   </head>
 
   <body>
-    <ul>
-      <li></li>
-      <li></li>
-    </ul>
+    <div class="container">
+      <nav class="row navbar navbar-toggleable-md navbar-light bg-faded">
+        <ul class="navbar-nav col">
+          <li class="nav-item"><a class="nav-link" href="#first-section" data-sloppyscroll>TO FIRST SECTION</a></li>
+          <li class="nav-item"><a class="nav-link" href="#second-section" data-sloppyscroll>TO SECOND SECTION</a></li>
+        </ul>
+      </nav>
 
-    <h1>sloppy scroll - a very simple demo</h1>
+      <div class="row intro">
+        <h1>sloppy scroll - a very simple demo</h1>
+      </div>
 
-    <div class="first-section" id="first-section">
-      <h2>first section</h2>
-      <p>
-        Elit est aspernatur in ea iure natus? Nulla voluptatem ea hic quod beatae porro aspernatur non voluptatem illo similique dignissimos, dolorem, laborum? Neque corrupti ad minima sit repudiandae impedit ullam.
-      </p>
-    </div>
+      <div class="row">
+        <div class="first-section col-s-12" id="first-section">
+          <h2>first section</h2>
+          <p>
+            Elit est aspernatur in ea iure natus? Nulla voluptatem ea hic quod beatae porro aspernatur non voluptatem illo similique dignissimos, dolorem, laborum? Neque corrupti ad minima sit repudiandae impedit ullam.
+          </p>
+        </div>
+      </div>
 
-    <div class="second-section" id="second-section">
-      <h2>second section</h2>
-      <p>
-        Elit est aspernatur in ea iure natus? Nulla voluptatem ea hic quod beatae porro aspernatur non voluptatem illo similique dignissimos, dolorem, laborum? Neque corrupti ad minima sit repudiandae impedit ullam.
-      </p>
-    </div>
+      <div class="row">
+        <div class="second-section col-s-12" id="second-section">
+          <h2>second section</h2>
+          <p>
+            Elit est aspernatur in ea iure natus? Nulla voluptatem ea hic quod beatae porro aspernatur non voluptatem illo similique dignissimos, dolorem, laborum? Neque corrupti ad minima sit repudiandae impedit ullam.
+          </p>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <script>
+      window.sloppyscroll.init();
+    </script>
   </body>
 </html>
 

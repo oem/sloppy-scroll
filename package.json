@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/webpack/bin/webpack.js"
+    "prepublish": "node_modules/webpack/bin/webpack.js"
   },
   "author": "Ömür Özkir",
   "license": "ISC",

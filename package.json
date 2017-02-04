@@ -1,6 +1,6 @@
 {
   "name": "sloppy-scroll",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "smooth scrolling to anchor tags",
   "main": "src/main.js",
   "scripts": {

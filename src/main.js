@@ -3,7 +3,7 @@
 
   window.sloppyscroll = {
     init: function () {
-      var scrollableLinks = document.querySelectorAll('[data-sloppyscroll]');
+      var scrollableLinks = document.querySelectorAll('[data-sloppy-scroll]');
 
       [].forEach.call(scrollableLinks, function(link) {
         link.addEventListener('click', function(e) {

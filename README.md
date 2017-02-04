@@ -6,8 +6,6 @@ Smooth scrolling to an anchor tag on the same webpage.
 
 It does **not have any other dependencies**, so there is absolutely no need to burden your webpage with something like jQuery if you just need some nice scrolling on your ""one page app"" website.
 
-You can checkout the examples in the examples folder to get see it in action.
-
 ## Working example
 
 A very simple example to demonstrate [sloppyscrolling](http://sloppyscroll.surge.sh)

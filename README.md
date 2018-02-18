@@ -4,7 +4,7 @@
 
 Smooth scrolling to an anchor tag on the same webpage.
 
-It does **not have any other dependencies**, so there is absolutely no need to burden your webpage with something like jQuery if you just need some nice scrolling on your ""one page app"" website.
+It does **not have any other dependencies**, so there is absolutely no need to burden your webpage with something like jQuery if you just need some nice scrolling on your "one page app" website.
 
 ## Working example
 
